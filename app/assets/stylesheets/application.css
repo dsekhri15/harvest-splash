@@ -18,7 +18,6 @@
  *= require nivo_themes/default/default
  *= require styles
  *= require responsive
- *= require colors/green
  *= require icons/icons
  *= require_self
  */
