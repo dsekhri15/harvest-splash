@@ -68,6 +68,8 @@ TO CHANGE PRE_DEFINED COLORS. PLEASE CHECK css/colors/your_selected_color.css
 /*---------------------------------------
    1.1 GENERAL STYLES                
 -----------------------------------------*/
+@import "colors/green.css";
+
 html {
 	font-size: 100%;
 }
@@ -101,11 +103,12 @@ body {
 }
 
 .status {
-	background-image: url(../../images/loader-green.gif);
-	background-repeat: no-repeat;
-	background-position: center;
-	-webkit-background-size: cover;
-	background-size: cover;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -20px 0 0 -20px;
 }
 
 /*---------------------------------------
